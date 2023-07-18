@@ -1,0 +1,103 @@
+@font-face {
+  font-family: "IRANSans";
+  font-style: normal;
+  src: url("../fonts/IRANSansWeb.eot");
+  src: url("../fonts/IRANSansWeb.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/IRANSansWeb.woff2") format("woff2"),
+    url("../fonts/IRANSansWeb.woff") format("woff"),
+    url("../fonts/IRANSansWeb.ttf") format("truetype");
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "IRANSans" !important;
+  direction: rtl;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: "IRANSans";
+}
+
+.icon {
+  background-color: #0d6efd;
+  color: #fafafa;
+  display: inline-flex;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.footer-header {
+  border-bottom: 3px solid;
+  height: 35px;
+}
+
+.footer-link:hover {
+  color: #e3f2fd;
+}
+
+.bi-linkedin:hover {
+  transition: all .3s ease;
+  color: #0dcaf0;
+}
+
+.bi-instagram:hover {
+  transition: all .3s ease;
+  color: blueviolet;
+}
+
+.bi-telegram:hover {
+  transition: all .3s ease;
+  color: #0d6efd;
+}
+
+.bi-facebook:hover {
+  transition: all .3s ease;
+  color: #1e56ac;
+}
+
+.btn-login {
+  background-color: #FFC720;
+  color: white;
+  border: none;
+  font-size: large;
+  width: 25%;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.btn-login:hover {
+  color: #FFC720;
+  background-color: white;
+  box-shadow: 0px 0px 7px #ccc;
+}
+
+.spn {
+  color:#FFC720;
+  text-decoration: double;
+}
+
+i {
+  background-color:#FFC720;
+  color: white;
+  padding: 30px;
+  font-size: 40px;
+  border-radius: 50%;
+  margin-top: -30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.d-block {
+  display: flex !important;
+  justify-content: center;
+}
